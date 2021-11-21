@@ -1,0 +1,11 @@
+#include<stdio.h>
+Int main()
+{
+Int a=20,b=30;
+Printf("before swap a=%d,b=%d",a,b);
+a=a+b;
+b=a-b;
+a=a-b;
+Printf("after swap a=%d,b=%d",a,b);
+return 0;
+}
